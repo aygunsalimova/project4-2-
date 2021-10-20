@@ -1,0 +1,197 @@
+    * {
+        margin: 0;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins&family=Roboto&display=swap');
+     :root {
+        --font: 'Open Sans', sans-serif;
+        --font2: 'Montserrat', sans-serif;
+    }
+    /* section 1 */
+    
+    .main {
+        background-image: url(../img/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+    
+    .navbar i {
+        color: #fff;
+    }
+    
+    .main-middle h1 {
+        font: 300 52px var(--font);
+        letter-spacing: 2px;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 220px;
+    }
+    
+    .search {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 200px !important;
+    }
+    
+    .search input {
+        width: 326px;
+        height: 40px;
+        background-color: #ffffff;
+        outline: none;
+        border: none;
+        padding: 0 0 0 20px;
+    }
+    
+    .search button {
+        width: 122px;
+        height: 40px;
+        background-color: #fd4f32;
+        border: none;
+        color: #fff;
+    }
+    /* SECTION 2 */
+    
+    .middle {
+        background-color: #eeeeee;
+        padding-bottom: 50px;
+    }
+    
+    .middle h3 {
+        text-align: left;
+        padding-bottom: 5px;
+        padding-top: 35px;
+    }
+    
+    .middle p {
+        font: 400 15px var(--font);
+        letter-spacing: 0px;
+        color: #8b8b8b;
+        text-align: left;
+        padding-bottom: 32px;
+    }
+    
+    .img {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .img img {
+        background-color: #fff;
+    }
+    
+    .price {
+        font: 700 12px var(--font2);
+        letter-spacing: 0px;
+        color: #fff !important;
+        text-align: right;
+        transform: translate(160px, -35px);
+        padding: 0;
+    }
+    
+    .box {
+        background-color: #fff;
+        box-shadow: 10px 10px 5px grey;
+    }
+    
+    .box h3 {
+        text-align: center;
+        font: 700 14px var(--font2);
+        letter-spacing: 0px;
+        color: #323232;
+        padding-top: 0 !important;
+    }
+    
+    .box p {
+        font: 400 13px var(--font);
+        width: 205px;
+        line-height: 19px;
+        color: #696969;
+        padding: 0 0 0 20px;
+    }
+    /*  SECTION 3 */
+    
+    .last h1 {
+        font: 100 42px var(--font);
+        letter-spacing: 2px;
+        color: #323232;
+        padding-top: 80px;
+    }
+    
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+    }
+    
+    .footer {
+        width: 285px;
+    }
+    
+    .footer h3 {
+        font: 400 16px var(--font2);
+        letter-spacing: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .footer p,
+    .foot p {
+        font: 400 15px var(--font);
+        letter-spacing: 0px;
+        line-height: 22px;
+        color: #8b8b8b;
+        padding-bottom: 70px;
+    }
+    
+    .endpart h3 {
+        font: 400 16px var(--font2);
+        letter-spacing: 0px;
+        color: #323232;
+        text-align: center;
+    }
+    
+    .search input {
+        background-color: #eeeeee;
+    }
+    
+    .search {
+        padding-bottom: 80px;
+    }
+    
+    .foot {
+        background-color: #eeeeee;
+    }
+    
+    .endlist p {
+        display: inline-block;
+    }
+    
+    .endlist ul {
+        float: right;
+    }
+    
+    .endlist ul li {
+        display: inline;
+    }
+    
+    .endlist ul li a {
+        font: 700 16px var(--font);
+        line-height: 18px;
+        text-decoration: none !important;
+        color: #323232;
+    }
+    
+    .foot {
+        padding-top: 50px;
+    }
